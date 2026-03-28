@@ -97,7 +97,7 @@
             ],
             "pricing": "premium",
             "description": "High-performance VPS hosting specifically optimized for AI model deployment and LLMs. Includes one-click templates for Ollama and deep learning frameworks on AMD EPYC processors.",
-            "affiliate_url": "https://www.hostinger.com/vps/llm-hosting",
+            "affiliate_url": "https://www.hostinger.com",
             "cta_label": "Deploy Your AI Model",
             "base_score": 90
         },
