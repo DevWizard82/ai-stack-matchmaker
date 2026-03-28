@@ -17,8 +17,25 @@ const dmMono = DM_Mono({
 
 // Update the SEO metadata for your actual project
 export const metadata: Metadata = {
-  title: "AI Stack Intelligence | Find Your Perfect AI Stack",
-  description: "Answer 3 questions about your workflow. Get a personalized dashboard of AI tools that eliminates your biggest bottleneck.",
+  title: "AI Stack Matchmaker | Professional Developer Infrastructure Discovery",
+  description: "Algorithmically discover the perfect AI and deployment stack. Eliminate project bottlenecks with personalized infrastructure recommendations for Next.js, Cloud Hosting, and Automation.",
+  keywords: ["AI Stack", "Developer Tools", "Infrastructure Discovery", "Next.js", "DigitalOcean", "Software Engineering", "Tech Stack Optimization"],
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "AI Stack Matchmaker",
+    description: "The intelligent way to build your next project's infrastructure.",
+    type: "website",
+    locale: "en_US",
+    url: "https://ai-stack-matchmaker.vercel.app",
+    siteName: "AI Stack Matchmaker",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Stack Matchmaker",
+    description: "Stop guessing your tech stack. Start building with precision.",
+  },
 };
 
 export default function RootLayout({
