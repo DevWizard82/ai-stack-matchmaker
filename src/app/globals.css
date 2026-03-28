@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* Using the --font-* namespace tells v4 to automatically create .font-display and .font-mono classes */
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+
+  --color-cyan-400: #00d4ff;
+  --color-purple-500: #a855f7;
+  --color-bg: #080808;
+}
+
+/* In v4, we use the native CSS @layer directive. 
+  This injects your custom global styles safely into Tailwind's cascade.
+*/
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: #fff;
+    font-family: var(--font-mono);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  /* ── Selection ── */
+  ::selection {
+    background: rgba(0, 212, 255, 0.25);
+    color: #fff;
+  }
+}
