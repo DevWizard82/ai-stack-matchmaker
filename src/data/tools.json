@@ -1,5 +1,5 @@
 {
-    "version": "6.0.0",
+    "version": "6.1.0",
     "last_updated": "2026-03-28T00:00:00Z",
     "tools": [
         {
@@ -18,8 +18,8 @@
                 "logic-debugging"
             ],
             "pricing": "freemium",
-            "description": "A free AI-native code editor from Codeium with unlimited autocomplete, in-editor chat, and multi-file agentic editing. Windsurf works across 70+ languages and 40+ IDEs with no credit card required.",
-            "affiliate_url": "https://codeium.com",
+            "description": "The first agentic AI coding assistant that actually understands your entire codebase. Windsurf offers a flow state where the AI acts as a pair programmer, handling complex refactors and boilerplate instantly.",
+            "affiliate_url": "https://codeium.com/windsurf",
             "cta_label": "Try Windsurf Free",
             "base_score": 88
         },
@@ -27,7 +27,7 @@
             "id": "mangools",
             "name": "Mangools",
             "logo_url": "https://mangools.com/favicon.ico",
-            "category": "ai-assistant",
+            "category": "seo",
             "role_tags": [
                 "frontend",
                 "backend",
@@ -38,36 +38,35 @@
                 "writing-boilerplate"
             ],
             "pricing": "freemium",
-            "description": "A powerful yet beginner-friendly SEO toolkit with keyword research, rank tracking, backlink analysis, and SERP tools. Used by 45,000+ marketers and developers to grow organic traffic without complexity.",
+            "description": "A powerful yet beginner-friendly SEO toolkit with keyword research and rank tracking. Used by 45,000+ developers to grow organic traffic without the complexity of enterprise tools.",
             "affiliate_url": "https://mangools.com#a69c7fd826aee088e3150e8da",
             "cta_label": "Try Mangools Free",
             "base_score": 83
         },
         {
-            "id": "sellfy",
-            "name": "Sellfy",
-            "logo_url": "https://sellfy.com/favicon.ico",
-            "category": "ui-ux",
+            "id": "gumroad",
+            "name": "Gumroad",
+            "logo_url": "https://gumroad.com/favicon.ico",
+            "category": "e-commerce",
             "role_tags": [
                 "frontend",
                 "fullstack"
             ],
             "bottleneck_tags": [
                 "ui-design",
-                "writing-boilerplate",
-                "cloud-deployment"
+                "writing-boilerplate"
             ],
             "pricing": "freemium",
-            "description": "The easiest eCommerce platform for creators and developers to sell digital products, subscriptions, and physical goods. Launch your store in minutes with built-in payments, analytics, and marketing tools.",
-            "affiliate_url": "https://sellfy.com",
-            "cta_label": "Launch Your Store",
-            "base_score": 82
+            "description": "The simplest way for developers to sell digital products, SaaS subscriptions, or code snippets. No complex setup—just upload your file, set a price, and start earning instantly.",
+            "affiliate_url": "https://gumroad.com/discover?a=814138259",
+            "cta_label": "Start Selling Today",
+            "base_score": 85
         },
         {
             "id": "uptimerobot",
             "name": "UptimeRobot",
             "logo_url": "https://uptimerobot.com/favicon.ico",
-            "category": "hosting",
+            "category": "monitoring",
             "role_tags": [
                 "backend",
                 "fullstack"
@@ -77,35 +76,35 @@
                 "workflow-automation"
             ],
             "pricing": "freemium",
-            "description": "The world's leading uptime monitoring service trusted by 2.7M+ users. Monitor your websites, APIs, and servers every 5 minutes for free — get instant alerts via email, Slack, or SMS when anything goes down.",
+            "description": "The world's leading uptime monitoring service. Monitor your websites and APIs every 5 minutes for free and get instant alerts via Slack or SMS before your users notice an outage.",
             "affiliate_url": "https://uptimerobot.com/?red=aistac7bcffc",
             "cta_label": "Monitor Free",
             "base_score": 85
         },
         {
-            "id": "supabase",
-            "name": "Supabase",
-            "logo_url": "https://supabase.com/favicon/favicon-196x196.png",
-            "category": "database",
+            "id": "hostinger-ai-vps",
+            "name": "Hostinger AI VPS",
+            "logo_url": "https://www.hostinger.com/favicon.ico",
+            "category": "hosting",
             "role_tags": [
                 "backend",
                 "fullstack",
                 "data-science"
             ],
             "bottleneck_tags": [
-                "writing-boilerplate",
-                "cloud-deployment"
+                "cloud-deployment",
+                "writing-boilerplate"
             ],
-            "pricing": "freemium",
-            "description": "The open-source Firebase alternative. Supabase gives you a Postgres database, instant REST & GraphQL APIs, auth, edge functions, and real-time subscriptions — all in one dashboard.",
-            "affiliate_url": "https://supabase.com",
-            "cta_label": "Start with Supabase",
-            "base_score": 92
+            "pricing": "premium",
+            "description": "High-performance VPS hosting specifically optimized for AI model deployment and LLMs. Includes one-click templates for Ollama and deep learning frameworks on AMD EPYC processors.",
+            "affiliate_url": "https://www.hostinger.com/vps/llm-hosting",
+            "cta_label": "Deploy Your AI Model",
+            "base_score": 90
         },
         {
             "id": "make-automation",
             "name": "Make",
-            "logo_url": "https://www.make.com/en/help/image/uuid-6d14c249-21db-4624-84a8-d7c59e8023fa.png",
+            "logo_url": "https://www.make.com/favicon.ico",
             "category": "automation",
             "role_tags": [
                 "frontend",
@@ -117,36 +116,16 @@
                 "writing-boilerplate"
             ],
             "pricing": "freemium",
-            "description": "Visual no-code automation platform that connects 1,500+ apps with powerful multi-step workflows. Replace repetitive glue-code with drag-and-drop scenarios that run on a schedule or trigger.",
-            "affiliate_url": "https://www.make.com/en/register?pc=YOURCODE",
+            "description": "Visual no-code automation platform that replaces repetitive 'glue-code.' Connect 1,500+ apps with drag-and-drop logic to automate your entire startup workflow.",
+            "affiliate_url": "https://www.make.com/en/register?pc=aimatchmaker",
             "cta_label": "Automate with Make",
             "base_score": 83
         },
         {
-            "id": "pabbly",
-            "name": "Pabbly Connect",
-            "logo_url": "https://www.pabbly.com/favicon.ico",
-            "category": "automation",
-            "role_tags": [
-                "frontend",
-                "backend",
-                "fullstack"
-            ],
-            "bottleneck_tags": [
-                "workflow-automation",
-                "writing-boilerplate"
-            ],
-            "pricing": "freemium",
-            "description": "Powerful workflow automation platform that connects 1,000+ apps without writing a single line of code. Pabbly's one-time pricing model makes it a budget-friendly alternative to Zapier for developers and founders.",
-            "affiliate_url": "https://www.pabbly.com",
-            "cta_label": "Automate with Pabbly",
-            "base_score": 81
-        },
-        {
-            "id": "openai-api",
-            "name": "OpenAI API",
-            "logo_url": "https://openai.com/favicon.ico",
-            "category": "llm-api",
+            "id": "perplexity-pro",
+            "name": "Perplexity Pro",
+            "logo_url": "https://www.perplexity.ai/favicon.ico",
+            "category": "ai-search",
             "role_tags": [
                 "backend",
                 "fullstack",
@@ -154,56 +133,32 @@
             ],
             "bottleneck_tags": [
                 "logic-debugging",
-                "writing-boilerplate",
                 "workflow-automation"
             ],
-            "pricing": "premium",
-            "description": "Access GPT-4o, o1, and other frontier models via a clean REST API. Build AI features — summarisation, agents, embeddings, vision — into any application with a few lines of code.",
-            "affiliate_url": "https://platform.openai.com/signup",
-            "cta_label": "Access OpenAI API",
-            "base_score": 93
+            "pricing": "freemium",
+            "description": "The world's first AI 'Answer Engine.' Replace traditional search with real-time, cited answers and deep research capabilities for technical documentation and debugging.",
+            "affiliate_url": "https://www.perplexity.ai/pro",
+            "cta_label": "Upgrade to Pro",
+            "base_score": 92
         },
         {
             "id": "systeme-io",
             "name": "Systeme.io",
             "logo_url": "https://systeme.io/favicon.ico",
-            "category": "no-code",
+            "category": "all-in-one",
             "role_tags": [
                 "frontend",
                 "fullstack"
             ],
             "bottleneck_tags": [
                 "ui-design",
-                "writing-boilerplate",
-                "cloud-deployment",
                 "workflow-automation"
             ],
             "pricing": "free",
-            "description": "The all-in-one platform to build funnels, send emails, create online courses, run affiliate programs, and automate your entire business — starting completely free. No credit card required.",
+            "description": "The ultimate all-in-one platform for launching your marketing funnels, email lists, and courses. Perfect for developers who want to skip building the marketing stack from scratch.",
             "affiliate_url": "https://systeme.io/?sa=sa00947410705a7c8301d32e30b9bf0d35c7138361",
             "cta_label": "Build Free on Systeme.io",
             "base_score": 82
-        },
-        {
-            "id": "mailerlite",
-            "name": "MailerLite",
-            "logo_url": "https://www.mailerlite.com/favicon.ico",
-            "category": "productivity",
-            "role_tags": [
-                "frontend",
-                "backend",
-                "fullstack",
-                "data-science"
-            ],
-            "bottleneck_tags": [
-                "workflow-automation",
-                "writing-boilerplate"
-            ],
-            "pricing": "freemium",
-            "description": "Clean, powerful email marketing built for creators and developers. MailerLite offers drag-and-drop campaigns, automation workflows, landing pages, and detailed analytics — free up to 1,000 subscribers.",
-            "affiliate_url": "https://www.mailerlite.com",
-            "cta_label": "Start Free on MailerLite",
-            "base_score": 81
         }
     ]
 }
