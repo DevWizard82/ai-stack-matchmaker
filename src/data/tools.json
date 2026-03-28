@@ -1,11 +1,11 @@
 {
-    "version": "1.2.0",
-    "last_updated": "2026-03-28T00:22:09Z",
+    "version": "6.0.0",
+    "last_updated": "2026-03-28T00:00:00Z",
     "tools": [
         {
-            "id": "cursor-ide",
-            "name": "Cursor",
-            "logo_url": "https://cursor.sh/brand/icon.svg",
+            "id": "codeium-windsurf",
+            "name": "Windsurf by Codeium",
+            "logo_url": "https://codeium.com/favicon.ico",
             "category": "ide",
             "role_tags": [
                 "frontend",
@@ -18,36 +18,35 @@
                 "logic-debugging"
             ],
             "pricing": "freemium",
-            "description": "An AI-first code editor built on VS Code that lets you write, edit, and debug code through natural language. Cursor's agent mode can refactor entire files, generate tests, and fix bugs in context.",
-            "affiliate_url": "https://cursor.sh",
-            "cta_label": "Add Cursor Free",
-            "base_score": 95
+            "description": "A free AI-native code editor from Codeium with unlimited autocomplete, in-editor chat, and multi-file agentic editing. Windsurf works across 70+ languages and 40+ IDEs with no credit card required.",
+            "affiliate_url": "https://codeium.com",
+            "cta_label": "Try Windsurf Free",
+            "base_score": 88
         },
         {
-            "id": "github-copilot",
-            "name": "GitHub Copilot",
-            "logo_url": "https://github.githubassets.com/images/modules/site/copilot/copilot.png",
+            "id": "mangools",
+            "name": "Mangools",
+            "logo_url": "https://mangools.com/favicon.ico",
             "category": "ai-assistant",
             "role_tags": [
                 "frontend",
                 "backend",
-                "fullstack",
-                "data-science"
+                "fullstack"
             ],
             "bottleneck_tags": [
-                "writing-boilerplate",
-                "logic-debugging"
+                "workflow-automation",
+                "writing-boilerplate"
             ],
-            "pricing": "premium",
-            "description": "GitHub's AI pair-programmer that suggests whole lines and functions directly inside VS Code, JetBrains, and more. Trained on billions of lines of public code for high-accuracy completions.",
-            "affiliate_url": "https://github.com/features/copilot",
-            "cta_label": "Try Copilot",
-            "base_score": 90
+            "pricing": "freemium",
+            "description": "A powerful yet beginner-friendly SEO toolkit with keyword research, rank tracking, backlink analysis, and SERP tools. Used by 45,000+ marketers and developers to grow organic traffic without complexity.",
+            "affiliate_url": "https://mangools.com#a69c7fd826aee088e3150e8da",
+            "cta_label": "Try Mangools Free",
+            "base_score": 83
         },
         {
-            "id": "v0-vercel",
-            "name": "v0 by Vercel",
-            "logo_url": "https://v0.dev/assets/icon.svg",
+            "id": "sellfy",
+            "name": "Sellfy",
+            "logo_url": "https://sellfy.com/favicon.ico",
             "category": "ui-ux",
             "role_tags": [
                 "frontend",
@@ -55,30 +54,32 @@
             ],
             "bottleneck_tags": [
                 "ui-design",
-                "writing-boilerplate"
+                "writing-boilerplate",
+                "cloud-deployment"
             ],
             "pricing": "freemium",
-            "description": "Prompt-to-UI generator by Vercel that outputs production-ready React components with Tailwind CSS and shadcn/ui. Go from a text description to a deployable interface in seconds.",
-            "affiliate_url": "https://v0.dev",
-            "cta_label": "Generate UI with v0",
-            "base_score": 88
+            "description": "The easiest eCommerce platform for creators and developers to sell digital products, subscriptions, and physical goods. Launch your store in minutes with built-in payments, analytics, and marketing tools.",
+            "affiliate_url": "https://sellfy.com",
+            "cta_label": "Launch Your Store",
+            "base_score": 82
         },
         {
-            "id": "digitalocean",
-            "name": "DigitalOcean",
-            "logo_url": "https://www.digitalocean.com/favicon.ico",
+            "id": "uptimerobot",
+            "name": "UptimeRobot",
+            "logo_url": "https://uptimerobot.com/favicon.ico",
             "category": "hosting",
             "role_tags": [
                 "backend",
                 "fullstack"
             ],
             "bottleneck_tags": [
-                "cloud-deployment"
+                "cloud-deployment",
+                "workflow-automation"
             ],
             "pricing": "freemium",
-            "description": "Developer-friendly cloud infrastructure with predictable pricing. Deploy apps, managed databases, and Kubernetes clusters with a clean UI and a generous free tier for new users.",
-            "affiliate_url": "https://m.do.co/c/YOURREFCODE",
-            "cta_label": "Deploy on DigitalOcean",
+            "description": "The world's leading uptime monitoring service trusted by 2.7M+ users. Monitor your websites, APIs, and servers every 5 minutes for free — get instant alerts via email, Slack, or SMS when anything goes down.",
+            "affiliate_url": "https://uptimerobot.com/?red=aistac7bcffc",
+            "cta_label": "Monitor Free",
             "base_score": 85
         },
         {
@@ -117,30 +118,29 @@
             ],
             "pricing": "freemium",
             "description": "Visual no-code automation platform that connects 1,500+ apps with powerful multi-step workflows. Replace repetitive glue-code with drag-and-drop scenarios that run on a schedule or trigger.",
-            "affiliate_url": "https://www.make.com/en/register?pc=aimatchmaker",
+            "affiliate_url": "https://www.make.com/en/register?pc=YOURCODE",
             "cta_label": "Automate with Make",
-            "base_score": 80
+            "base_score": 83
         },
         {
-            "id": "codeium",
-            "name": "Codeium",
-            "logo_url": "https://codeium.com/favicon.ico",
-            "category": "ai-assistant",
+            "id": "pabbly",
+            "name": "Pabbly Connect",
+            "logo_url": "https://www.pabbly.com/favicon.ico",
+            "category": "automation",
             "role_tags": [
                 "frontend",
                 "backend",
-                "fullstack",
-                "data-science"
+                "fullstack"
             ],
             "bottleneck_tags": [
-                "writing-boilerplate",
-                "logic-debugging"
+                "workflow-automation",
+                "writing-boilerplate"
             ],
-            "pricing": "free",
-            "description": "A free AI code acceleration toolkit that works inside 40+ IDEs. Codeium offers unlimited autocomplete, in-editor chat, and codebase-aware search — no credit card required.",
-            "affiliate_url": "https://codeium.com",
-            "cta_label": "Get Codeium Free",
-            "base_score": 82
+            "pricing": "freemium",
+            "description": "Powerful workflow automation platform that connects 1,000+ apps without writing a single line of code. Pabbly's one-time pricing model makes it a budget-friendly alternative to Zapier for developers and founders.",
+            "affiliate_url": "https://www.pabbly.com",
+            "cta_label": "Automate with Pabbly",
+            "base_score": 81
         },
         {
             "id": "openai-api",
@@ -164,9 +164,9 @@
             "base_score": 93
         },
         {
-            "id": "bubble-io",
-            "name": "Bubble.io",
-            "logo_url": "https://bubble.io/favicon.ico",
+            "id": "systeme-io",
+            "name": "Systeme.io",
+            "logo_url": "https://systeme.io/favicon.ico",
             "category": "no-code",
             "role_tags": [
                 "frontend",
@@ -175,18 +175,19 @@
             "bottleneck_tags": [
                 "ui-design",
                 "writing-boilerplate",
-                "cloud-deployment"
+                "cloud-deployment",
+                "workflow-automation"
             ],
-            "pricing": "freemium",
-            "description": "The most powerful no-code platform for building full-stack web apps. Design pixel-perfect UIs, set up workflows, connect APIs, and deploy — all without writing a single line of code.",
-            "affiliate_url": "https://bubble.io",
-            "cta_label": "Build on Bubble",
-            "base_score": 75
+            "pricing": "free",
+            "description": "The all-in-one platform to build funnels, send emails, create online courses, run affiliate programs, and automate your entire business — starting completely free. No credit card required.",
+            "affiliate_url": "https://systeme.io/?sa=sa00947410705a7c8301d32e30b9bf0d35c7138361",
+            "cta_label": "Build Free on Systeme.io",
+            "base_score": 82
         },
         {
-            "id": "notion",
-            "name": "Notion",
-            "logo_url": "https://www.notion.so/front-static/favicon.ico",
+            "id": "mailerlite",
+            "name": "MailerLite",
+            "logo_url": "https://www.mailerlite.com/favicon.ico",
             "category": "productivity",
             "role_tags": [
                 "frontend",
@@ -199,69 +200,10 @@
                 "writing-boilerplate"
             ],
             "pricing": "freemium",
-            "description": "An all-in-one workspace for notes, docs, wikis, and project management — now supercharged with Notion AI. Keep your technical specs, sprint boards, and team knowledge in one connected place.",
-            "affiliate_url": "https://www.notion.so",
-            "cta_label": "Open Notion",
-            "base_score": 78
-        },
-        {
-            "id": "vercel",
-            "name": "Vercel",
-            "logo_url": "https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico",
-            "category": "hosting",
-            "role_tags": [
-                "backend",
-                "frontend",
-                "fullstack"
-            ],
-            "bottleneck_tags": [
-                "cloud-deployment",
-                "workflow-automation"
-            ],
-            "pricing": "free",
-            "description": "The platform for frontend developers. Deploy your Next.js and React web applications instantly with zero configuration. Supports serverless edge functions CI/CD and automatic HTTPS for every deploy.",
-            "affiliate_url": "https://vercel.com/signup",
-            "cta_label": "Deploy Now",
-            "base_score": 91
-        },
-        {
-            "id": "tabnine",
-            "name": "Tabnine",
-            "logo_url": "https://www.tabnine.com/wp-content/uploads/2022/09/favicon.ico",
-            "category": "ai-assistant",
-            "role_tags": [
-                "fullstack"
-            ],
-            "bottleneck_tags": [
-                "logic-debugging",
-                "writing-boilerplate"
-            ],
-            "pricing": "free",
-            "description": "AI code assistant that provides intelligent autocomplete and boilerplate code generation directly inside VS Code and JetBrains. Trained on your codebase for context-aware suggestions that accelerate debugging and eliminate repetitive coding.",
-            "affiliate_url": "https://www.tabnine.com/pricing",
-            "cta_label": "Try for Free",
-            "base_score": 95
-        },
-        {
-            "id": "retool",
-            "name": "Retool",
-            "logo_url": "https://retool.com/favicon.ico",
-            "category": "no-code",
-            "role_tags": [
-                "backend",
-                "fullstack"
-            ],
-            "bottleneck_tags": [
-                "cloud-deployment",
-                "ui-design",
-                "workflow-automation",
-                "writing-boilerplate"
-            ],
-            "pricing": "premium",
-            "description": "Build internal web applications and admin dashboards with a drag-and-drop UI designer and no-code workflow automation. Connect to any REST API or database and deploy in minutes without writing boilerplate infrastructure code.",
-            "affiliate_url": "https://retool.com/pricing",
-            "cta_label": "Build for Free",
-            "base_score": 73
+            "description": "Clean, powerful email marketing built for creators and developers. MailerLite offers drag-and-drop campaigns, automation workflows, landing pages, and detailed analytics — free up to 1,000 subscribers.",
+            "affiliate_url": "https://www.mailerlite.com",
+            "cta_label": "Start Free on MailerLite",
+            "base_score": 81
         }
     ]
 }
